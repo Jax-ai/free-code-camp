@@ -1094,7 +1094,7 @@ phoneticLookup("charlie");
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Using Objects for Lookups ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Testing Objects for Properties ~~~~~~~~~~~~~~~~~~~~
 */
 function checkObj(obj, checkProp) {
   // Only change code below this line
@@ -1107,3 +1107,31 @@ function checkObj(obj, checkProp) {
 
   // Only change code above this line
 }
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Manipulating Complex Objects ~~~~~~~~~~~~~~~~~~~~
+*/
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Kanye West",
+    "title": "Donda 2",
+    "release_year": 2022,
+    "formats": [
+      "Download",
+      "Physical",
+      "LP"
+    ],
+  }
+];
