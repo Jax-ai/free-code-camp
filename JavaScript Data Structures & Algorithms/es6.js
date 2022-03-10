@@ -136,3 +136,23 @@ const {today: {low: lowToday, high: highToday2}} = LOCAL_FORECAST;
 // Only change code above this line
 
 
+/*
+~~~~~~~~~~~~~~~~~~~ Use Destructuring Assignment to Assign Variables from Arrays ~~~~~~~~~~~~~~~~~~~~
+*/
+let a = 8, b = 6;
+// Only change code below this line
+[a,b] = [b,a];
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements ~~~~~~~~~~~~~~~~~~~~
+*/
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  // Only change code below this line
+  const [a,b, ...arr] = list; // Change this line
+  // Only change code above this line
+  return arr;
+}
+const arr = removeFirstTwo(source);
