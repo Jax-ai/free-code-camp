@@ -237,3 +237,8 @@ class Vegetable {
 
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Use getters and setters to Control Access to an Object ~~~~~~~~~~~~~~~~~~~~
+*/
