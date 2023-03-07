@@ -355,3 +355,11 @@ const makeServerRequest1 = new Promise((resolve, reject) => {
 makeServerRequest.then(result => {  
   console.log(result);
 });
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Handle a Rejected Promise with catc ~~~~~~~~~~~~~~~~~~~~
+*/
+makeServerRequest.catch(error => {
+  console.log(error);
+});
