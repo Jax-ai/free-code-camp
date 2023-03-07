@@ -335,7 +335,7 @@ const makeServerRequest = new Promise((resolve, reject) => {
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Create a JavaScript Promise ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Complete a Promise with resolve and reject ~~~~~~~~~~~~~~~~~~~~
 */
 const makeServerRequest1 = new Promise((resolve, reject) => {
   // responseFromServer represents a response from a server
