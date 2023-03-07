@@ -23,6 +23,13 @@ let result3 = petRegex.test(petString);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Match a Literal String with Different Possibilities ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Ignore Case While Matching ~~~~~~~~~~~~~~~~~~~~
 */
+let myString2 = "freeCodeCamp";
+let fccRegex = /freecodecamp/i; // Change this line
+let result4 = fccRegex.test(myString);
 
+
+/*
+~~~~~~~~~~~~~~~~~~~ Ignore Case While Matching ~~~~~~~~~~~~~~~~~~~~
+*/
