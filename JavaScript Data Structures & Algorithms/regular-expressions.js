@@ -56,5 +56,5 @@ let result7 = unRegex.test(exampleStr);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Match Anything with Wildcard Period ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~
 */
