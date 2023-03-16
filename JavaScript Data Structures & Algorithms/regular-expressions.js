@@ -54,7 +54,6 @@ let unRegex = /.un/; // Change this line
 let result7 = unRegex.test(exampleStr);
 
 
-
 /*
 ~~~~~~~~~~~~~~~~~~~ Match Single Character with Multiple Possibilities ~~~~~~~~~~~~~~~~~~~~
 */
@@ -62,7 +61,9 @@ let quoteSample = "Beware of bugs in the above code; I have only proved it corre
 let vowelRegex = /[aeiou]/ig; // Change this line
 let result8 = quoteSample.match(vowelRegex); // Change this line
 
-
+/*
+~~~~~~~~~~~~~~~~~~~ Match Letters of the Alphabet ~~~~~~~~~~~~~~~~~~~~
+*/
 let quoteSample2 = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; // Change this line
 let result9 = quoteSample2.match(alphabetRegex); // Change this line
