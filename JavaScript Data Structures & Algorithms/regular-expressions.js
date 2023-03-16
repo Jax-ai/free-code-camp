@@ -67,3 +67,10 @@ let result8 = quoteSample.match(vowelRegex); // Change this line
 let quoteSample2 = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; // Change this line
 let result9 = quoteSample2.match(alphabetRegex); // Change this line
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Numbers and Letters of the Alphabet ~~~~~~~~~~~~~~~~~~~~
+*/
+let quoteSample3 = "Blueberry 3.141592653s are delicious.";
+let myRegex2 = /[h-s2-6]/gi; // Change this line
+let result10 = quoteSample3.match(myRegex2); // Change this line
