@@ -88,3 +88,13 @@ let result11 = quoteSample4.match(myRegex3); // Change this line
 let difficultSpelling = "Mississippi";
 let myRegex4 = /s+/ig; // Change this line
 let result12 = difficultSpelling.match(myRegex4);
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Characters that Occur Zero or More Times ~~~~~~~~~~~~~~~~~~~~
+*/
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result13 = chewieQuote.match(chewieRegex);
