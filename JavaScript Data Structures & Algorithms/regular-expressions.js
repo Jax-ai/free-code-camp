@@ -81,3 +81,10 @@ let result10 = quoteSample3.match(myRegex2); // Change this line
 let quoteSample4 = "3 blind mice.";
 let myRegex3 = /[^0-9aeiou]/gi; // Change this line
 let result11 = quoteSample4.match(myRegex3); // Change this line
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Characters that Occur One or More Times ~~~~~~~~~~~~~~~~~~~~
+*/
+let difficultSpelling = "Mississippi";
+let myRegex4 = /s+/ig; // Change this line
+let result12 = difficultSpelling.match(myRegex4);
