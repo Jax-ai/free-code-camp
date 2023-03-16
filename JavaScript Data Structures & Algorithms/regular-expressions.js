@@ -74,3 +74,10 @@ let result9 = quoteSample2.match(alphabetRegex); // Change this line
 let quoteSample3 = "Blueberry 3.141592653s are delicious.";
 let myRegex2 = /[h-s2-6]/gi; // Change this line
 let result10 = quoteSample3.match(myRegex2); // Change this line
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Numbers and Letters of the Alphabet ~~~~~~~~~~~~~~~~~~~~
+*/
+let quoteSample4 = "3 blind mice.";
+let myRegex3 = /[^0-9aeiou]/gi; // Change this line
+let result11 = quoteSample4.match(myRegex3); // Change this line
