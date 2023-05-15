@@ -98,3 +98,12 @@ let chewieRegex = /Aa*/; // Change this line
 // Only change code above this line
 
 let result13 = chewieQuote.match(chewieRegex);
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~ Find Characters with Lazy Matching ~~~~~~~~~~~~~~~~~~~~
+*/
+let text = "<h1>Winter is coming</h1>";
+let myRegex5 = /<.*?>/; // Change this line
+let result14 = text.match(myRegex);
