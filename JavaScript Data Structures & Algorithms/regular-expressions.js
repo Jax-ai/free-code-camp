@@ -213,8 +213,11 @@ let favRegex = /favou?rite/; // Change this line
 let result27 = favRegex.test(favWord);
 
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Positive and Negative Lookahead ~~~~~~~~~~~~~~~~~~~~
 */
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
+let result28 = pwRegex.test(sampleWord);
 
 
 /*
