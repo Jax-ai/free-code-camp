@@ -247,19 +247,9 @@ let result31 = str.replace(fixRegex, replaceText);
 /*
 ~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
 */
-
-/*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
-*/
-
-/*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
-*/
-
-/*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
-*/
-
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g; // Change this line
+let result32 = hello.replace(wsRegex, ""); // Change this line
 
 
 
