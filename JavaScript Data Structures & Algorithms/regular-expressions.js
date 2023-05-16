@@ -164,3 +164,10 @@ let result20 = movieName.match(noNumRegex).length;
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
 let result21 = userCheck.test(username);
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Whitespace ~~~~~~~~~~~~~~~~~~~~
+*/
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; // Change this line
+let result22 = sample.match(countWhiteSpace);
