@@ -72,9 +72,16 @@ console.log(result);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Catch Use of Assignment Operator Instead of Equality Operator ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Catch Missing Open and Closing Parenthesis After a Function Call ~~~~~~~~~~~~~~~~~~~~
 */
-
+function getNine() {
+    let x = 6;
+    let y = 3;
+    return x + y;
+  }
+  
+  let result2 = getNine();
+  console.log(result);
 
 
 /*
