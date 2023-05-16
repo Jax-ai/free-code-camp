@@ -221,8 +221,12 @@ let result28 = pwRegex.test(sampleWord);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Check For Mixed Grouping of Characters ~~~~~~~~~~~~~~~~~~~~
 */
+let myString9 = "Eleanor Roosevelt";
+let myRegex9 = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/; // Change this line
+let result29 = myRegex.test(myString); // Change this line
+// After passing the challenge experiment with myString and see how the grouping works
 
 
 /*
