@@ -171,3 +171,10 @@ let result21 = userCheck.test(username);
 let sample = "Whitespace is important in separating words";
 let countWhiteSpace = /\s/g; // Change this line
 let result22 = sample.match(countWhiteSpace);
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match Non-Whitespace Characters ~~~~~~~~~~~~~~~~~~~~
+*/
+let sample9 = "Whitespace is important in separating words";
+let countNonWhiteSpace = /\S/g; // Change this line
+let result23 = sample.match(countNonWhiteSpace);
