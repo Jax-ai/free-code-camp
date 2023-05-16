@@ -129,5 +129,8 @@ let result16 = lastRegex.test(caboose);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Match Ending String Patterns ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Match All Letters and Numbers ~~~~~~~~~~~~~~~~~~~~
 */
+let quoteSample6 = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let result17 = quoteSample.match(alphabetRegexV2).length;
