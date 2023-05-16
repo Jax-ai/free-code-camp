@@ -206,9 +206,11 @@ let result26 = timRegex.test(timStr);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Exact Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Check for All or None ~~~~~~~~~~~~~~~~~~~~
 */
-
+let favWord = "favorite";
+let favRegex = /favou?rite/; // Change this line
+let result27 = favRegex.test(favWord);
 
 /*
 ~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
