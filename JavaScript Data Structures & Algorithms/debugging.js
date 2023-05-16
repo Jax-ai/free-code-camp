@@ -97,9 +97,19 @@ function raiseToPower(b, e) {
   console.log(power);
 
 /*
-~~~~~~~~~~~~~~~~~~~ Catch Use of Assignment Operator Instead of Equality Operator ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Catch Off By One Errors When Using Indexing ~~~~~~~~~~~~~~~~~~~~
 */
-
+function countToFive() {
+    let firstFive = "12345";
+    let len = firstFive.length;
+    // Only change code below this line
+    for (let i = 0; i < len; i++) {
+    // Only change code above this line
+      console.log(firstFive[i]);
+    }
+  }
+  
+  countToFive();
 
 /*
 ~~~~~~~~~~~~~~~~~~~ Catch Use of Assignment Operator Instead of Equality Operator ~~~~~~~~~~~~~~~~~~~~
