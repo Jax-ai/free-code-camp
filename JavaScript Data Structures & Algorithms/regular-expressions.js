@@ -142,3 +142,10 @@ let result17 = quoteSample.match(alphabetRegexV2).length;
 let quoteSample7 = "The five boxing wizards jump quickly.";
 let nonAlphabetRegex = /\W/g; // Change this line
 let result18 = quoteSample.match(nonAlphabetRegex).length;
+
+/*
+~~~~~~~~~~~~~~~~~~~ Match All Numbers ~~~~~~~~~~~~~~~~~~~~
+*/
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; // Change this line
+let result19 = movieName.match(numRegex).length;
