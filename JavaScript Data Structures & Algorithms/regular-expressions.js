@@ -196,15 +196,17 @@ let haRegex = /Haz{4,}ah/; // Change this line
 let result25 = haRegex.test(haStr);
 
 
-
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Specify Exact Number of Matches ~~~~~~~~~~~~~~~~~~~~
 */
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // Change this line
+let result26 = timRegex.test(timStr);
 
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Specify Exact Number of Matches ~~~~~~~~~~~~~~~~~~~~
 */
 
 
