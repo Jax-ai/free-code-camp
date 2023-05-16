@@ -230,13 +230,19 @@ let result29 = myRegex.test(myString); // Change this line
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Reuse Patterns Using Capture Groups ~~~~~~~~~~~~~~~~~~~~
 */
-
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+) \1 \1$/;
+let result30 = reRegex.test(repeatNum);
 
 /*
 ~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
 */
+let str = "one two three";
+let fixRegex = /(\w+)\s(\w+)\s(\w+)/; // Change this line
+let replaceText = "$3 $2 $1"; // Change this line
+let result31 = str.replace(fixRegex, replaceText);
 
 /*
 ~~~~~~~~~~~~~~~~~~~ Specify Upper and Lower Number of Matches ~~~~~~~~~~~~~~~~~~~~
