@@ -110,3 +110,38 @@ function confirmEnding(str, target) {
   }
   
   confirmEnding("Bastian", "n");
+
+  //Optimal solution
+  function confirmEnding(str, target) {
+    return str.slice(-target.length) === target
+  }
+  
+  confirmEnding("Bastian", "n");
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Repeat a String Repeat a String ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function repeatStringNumTimes(str, num) { 
+
+    let result = "";
+
+    for (let i = 0; i < num; i++) {
+        result = result + str;        
+    }
+
+    return result;
+}
+
+  
+  repeatStringNumTimes("abc", 3);
+  
+
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Repeat a String Repeat a String ~~~~~~~~~~~~~~~~~~~~
+*/
+
