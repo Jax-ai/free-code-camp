@@ -305,5 +305,95 @@ console.log(isEveryoneHere(users));
 
 
 /*
-~~~~~~~~~~~~~~~~~~~~ Check if an Object has a Property ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ Iterate Through the Keys of an Object with a for...in Statement ~~~~~~~~~~~~~~~~~~~~
 */
+const users2 = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+function countOnline(allUsers) {
+  // Only change code below this line
+  let count = 0;
+  for (let user in allUsers) {
+    if(allUsers[user].online === true) {
+      count++;
+    }
+  }
+  return count;
+  // Only change code above this line
+}
+
+console.log(countOnline(users2));
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Generate an Array of All Object Keys with Object.keys() ~~~~~~~~~~~~~~~~~~~~
+*/
+
+let users3 = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function getArrayOfUsers(obj) {
+  // Only change code below this line
+  return Object.keys(obj);
+  // Only change code above this line
+}
+
+console.log(getArrayOfUsers(users3));
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Modify an Array Stored in an Object ~~~~~~~~~~~~~~~~~~~~
+*/
+
+let user = {
+  name: 'Kenneth',
+  age: 28,
+  data: {
+    username: 'kennethCodesAllDay',
+    joinDate: 'March 26, 2016',
+    organization: 'freeCodeCamp',
+    friends: [
+      'Sam',
+      'Kira',
+      'Tomo'
+    ],
+    location: {
+      city: 'San Francisco',
+      state: 'CA',
+      country: 'USA'
+    }
+  }
+};
+
+function addFriend(userObj, friend) {
+  // Only change code below this line
+  userObj.data.friends.push(friend);
+  return userObj.data.friends;
+  // Only change code above this line
+}
+
+console.log(addFriend(user, 'Pete'));
