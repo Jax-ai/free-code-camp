@@ -69,7 +69,7 @@ function htmlColorNames(arr) {
 
 
 /*
-~~~~~~~~~~~~~~~~~~~ Copy Array Items Using slice() ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Copy Array Items Using slice() ... Same a substring() ~~~~~~~~~~~~~~~~~~~~
 */
   function forecast(arr) {
     // Only change code below this line
