@@ -256,3 +256,30 @@ function getIndexToIns(arr, num) {
 }
 
 getIndexToIns([40, 60], 50);
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Mutations ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function mutation(arr) {
+  const test = arr[1].toLowerCase();
+  const target = arr[0].toLowerCase();
+  for (let i = 0; i < test.length; i++) {
+    if (target.indexOf(test[i]) < 0) return false;
+  }
+  return true;
+}
+
+mutation(["hello", "hey"]);
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Chunky Monkey ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function chunkArrayInGroups(arr, size) {
+  return arr;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
