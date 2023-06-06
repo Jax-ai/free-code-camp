@@ -217,3 +217,31 @@ function frankenSplice(arr1, arr2, n) {
 }
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Falsy Bouncer ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function bouncer(arr) {
+
+  let result = [];
+
+  for (let i in arr) {
+
+    if(arr[i]) result.push(arr[i]);
+
+  }
+  return result;
+}
+
+bouncer([7, "ate", "", false, 9]);
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Where do I Belong ~~~~~~~~~~~~~~~~~~~~
+*/
+function getIndexToIns(arr, num) {
+  return num;
+}
+
+getIndexToIns([40, 60], 50);
