@@ -270,7 +270,7 @@ delete foods.strawberries ;
 console.log(foods);
 
 /*
-~~~~~~~~~~~~~~~~~~~~ Check if an Object has a Property ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ Check if an Object has a Property / Type ~~~~~~~~~~~~~~~~~~~~
 */
 let users = {
   Alan: {
