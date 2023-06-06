@@ -191,7 +191,18 @@ booWho(null);
 */
 
 function titleCase(str) {
-  return str;
+
+  let newTitle = str.split(" ");
+  let updatedTitle = [];
+
+  for (let i in newTitle) {
+
+    updatedTitle[i] = newTitle[i][0].toUpperCase() + newTitle[i].slice(1).toLowerCase();
+
+  }
+
+  return updatedTitle.join(" ");
+
 }
 
 titleCase("I'm a little tea pot");
