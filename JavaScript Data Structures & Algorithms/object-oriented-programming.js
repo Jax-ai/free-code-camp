@@ -201,6 +201,36 @@ function Dog(name) {
 
 
 /*
-~~~~~~~~~~~~~~~~~~~~ Change the Prototype to a New Object ~~~~~~~~~~~~~~~~~~~~
-*/
+~~~~~~~~~~~~~~~~~~~~ Remember to Set the Constructor Property when Changing the Prototype ~~~~~~~~~~~~~~~~~~~~
 
+  Manually setting the prototype to a new object, erases the constructor property
+
+*/
+function Dog(name) {
+    this.name = name;
+  }
+  
+  // Only change code below this line
+  Dog.prototype = {
+    constructor: Dog,
+    numLegs: 4,
+    eat: function() {
+      console.log("nom nom nom");
+    },
+    describe: function() {
+      console.log("My name is " + this.name);
+    }
+  };
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Understand Where an Object’s Prototype Comes From ~~~~~~~~~~~~~~~~~~~~
+*/
+function Dog(name) {
+    this.name = name;
+}
+
+let beagle4 = new Dog("Snoopy");
+
+// Only change code below this line
+Dog.prototype.isPrototypeOf(beagle4);
