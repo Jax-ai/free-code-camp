@@ -81,3 +81,44 @@ function Dog(name , color) {
 }
 
 let terrier = new Dog("Pitbull terrier", "brown");
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Verify an Object's Constructor with instanceof ~~~~~~~~~~~~~~~~~~~~
+
+Comapre an an object to a constructor, returning true or false 
+    whether or not that object was created with the constructor
+
+*/
+
+function House(numBedrooms) {
+    this.numBedrooms = numBedrooms;
+}
+  
+// Only change code below this line
+let myHouse = new House(4);
+myHouse instanceof House;
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Understand Own Properties ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function Bird(name) {
+    this.name = name;
+    this.numLegs = 2;
+}
+
+let canary = new Bird("Tweety");
+let ownProps = [];
+
+// Only change code below this line
+
+for(let property in canary) {
+
+    if(canary.hasOwnProperty(property)) {
+        ownProps.push(property);
+    }
+
+}
+
