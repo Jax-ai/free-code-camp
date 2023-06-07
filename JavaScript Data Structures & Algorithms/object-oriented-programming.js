@@ -43,3 +43,20 @@ let dog4 = {
   };
   
   dog4.sayLegs();
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Define a Constructor Function ~~~~~~~~~~~~~~~~~~~~
+*/
+
+function Dog() {
+
+    this.name = "Pote",
+    this.color = "Brown",
+    this.numLegs = 4
+
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Use a Constructor to Create Objects ~~~~~~~~~~~~~~~~~~~~
+*/
+
