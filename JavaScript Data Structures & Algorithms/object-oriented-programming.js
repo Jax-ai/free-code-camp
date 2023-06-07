@@ -163,3 +163,44 @@ for (let property in beagle2) {
     }
 
 }
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Understand the Constructor Property ~~~~~~~~~~~~~~~~~~~~
+*/
+function Dog(name) {
+    this.name = name;
+  }
+  
+  // Only change code below this line
+  function joinDogFraternity(candidate) {
+
+    if(candidate.constructor === Dog) {
+        return true;
+    } else {
+        return false;
+    }
+  
+  }
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Change the Prototype to a New Object ~~~~~~~~~~~~~~~~~~~~
+*/
+function Dog(name) {
+    this.name = name;
+  }
+  
+  Dog.prototype = {
+    // Only change code below this line
+    numLegs: 4,
+    eat: function() { return "nom nom nom";},
+    describe: function() { return "This dog is wicked!";}
+  
+  };
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Change the Prototype to a New Object ~~~~~~~~~~~~~~~~~~~~
+*/
+
