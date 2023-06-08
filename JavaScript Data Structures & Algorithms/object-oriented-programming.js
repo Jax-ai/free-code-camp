@@ -280,3 +280,22 @@ Animal.prototype = {
   }
 
 };
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Inherit Behaviors from a Supertype ~~~~~~~~~~~~~~~~~~~~
+*/
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+// Only change code below this line
+
+let duck = Object.create(Animal.prototype); // Change this line
+let beagle6 = Object.create(Animal.prototype); ; // Change this line
