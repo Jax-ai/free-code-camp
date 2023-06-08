@@ -237,7 +237,7 @@ Dog.prototype.isPrototypeOf(beagle4);
 
 
 /*
-~~~~~~~~~~~~~~~~~~~~ Understand Where an Object’s Prototype Comes From ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ Understand the Prototype Chain ~~~~~~~~~~~~~~~~~~~~
 */
 function Dog(name) {
   this.name = name;
