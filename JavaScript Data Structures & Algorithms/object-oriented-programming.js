@@ -422,3 +422,16 @@ function Bird() {
   }
 
 }
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Understand the Immediately Invoked Function Expression (IIFE) ~~~~~~~~~~~~~~~~~~~~
+*/
+(function () {
+  console.log("A cozy nest is ready");
+})();
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ Use Closure to Protect Properties Within an Object from Being Modified Externally ~~~~~~~~~~~~~~~~~~~~
+*/
