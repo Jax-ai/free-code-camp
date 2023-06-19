@@ -72,5 +72,5 @@ console.log(
 );
 
 /*
-~~~~~~~~~~~~~~~~~~~~ Learn About Functional Programming ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ Understand the Hazards of Using Imperative Code ~~~~~~~~~~~~~~~~~~~~
 */
