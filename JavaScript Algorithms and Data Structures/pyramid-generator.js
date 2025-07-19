@@ -15,6 +15,7 @@ console.log("#########");
 - Strings are immutable, which means once they are created, they cannot be changed. The variable can still be reassigned another value.
 - In JavaScript, the convention to use is camel case.
 - The default value of an uninitialized variable is undefined
+- const variable cannot be reassigned like a let variable
 */
 
 let character;
