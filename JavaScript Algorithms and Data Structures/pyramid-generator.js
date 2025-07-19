@@ -66,3 +66,16 @@ for (iterator; condition; iteration) {
 for (const value of iterable) {
 
 }
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ functions ~~~~~~~~~~~~~~~~~~~~
+A function is a block of code that can be reused throughout your application
+- All functions in JavaScript return a value
+- By default, functions return undefined as their value.
+- When you pass a value to a function call, that value is referred to as an argument.
+*/
+function test() {
+
+}
+test();
