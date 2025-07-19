@@ -49,3 +49,12 @@ array[array.length - 1];
 */
 array.push(12);
 let popped = rows.pop()
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~ for Loops ~~~~~~~~~~~~~~~~~~~~
+
+*/
+for (iterator; condition; iteration) {
+  logic;
+}
