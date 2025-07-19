@@ -58,3 +58,11 @@ let popped = rows.pop()
 for (iterator; condition; iteration) {
   logic;
 }
+
+/*
+~~~~~~~~~~~~~~~~~~~~ for...of Loops ~~~~~~~~~~~~~~~~~~~~
+
+*/
+for (const value of iterable) {
+
+}
